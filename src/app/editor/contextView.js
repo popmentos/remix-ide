@@ -1,6 +1,6 @@
 'use strict'
 var yo = require('yo-yo')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var SourceMappingDecoder = remixLib.SourceMappingDecoder
 var globalRegistry = require('../../global/registry')
 

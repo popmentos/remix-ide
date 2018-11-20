@@ -1,4 +1,4 @@
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var EventManager = require('./lib/events')
 var ethutil = require('ethereumjs-util')
 var executionContext = require('./execution-context')

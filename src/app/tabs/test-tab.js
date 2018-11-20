@@ -5,7 +5,7 @@ var tooltip = require('../ui/tooltip')
 var modalDialogCustom = require('../ui/modal-dialog-custom')
 var globalRegistry = require('../../global/registry')
 var css = require('./styles/test-tab-styles')
-var remixTests = require('remix-tests')
+var remixTests = require('@dexon-foundation/remix-tests')
 
 module.exports = class TestTab {
   constructor (localRegistry) {

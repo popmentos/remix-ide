@@ -5,8 +5,8 @@ var csjs = require('csjs-inject')
 var yo = require('yo-yo')
 var async = require('async')
 var request = require('request')
-var remixLib = require('remix-lib')
-var remixTests = require('remix-tests')
+var remixLib = require('@dexon-foundation/remix-lib')
+var remixTests = require('@dexon-foundation/remix-tests')
 var EventManager = require('./lib/events')
 
 var registry = require('./global/registry')
@@ -25,7 +25,7 @@ var chromeCloudStorageSync = require('./app/files/chromeCloudStorageSync')
 var SharedFolder = require('./app/files/shared-folder')
 var Config = require('./config')
 var Renderer = require('./app/ui/renderer')
-var Compiler = require('remix-solidity').Compiler
+var Compiler = require('@dexon-foundation/remix-solidity').Compiler
 var executionContext = require('./execution-context')
 var FilePanel = require('./app/panels/file-panel')
 var EditorPanel = require('./app/panels/editor-panel')
@@ -357,7 +357,7 @@ function run () {
 
   if (window.location.hostname === 'yann300.github.io') {
     modalDialogCustom.alert('This UNSTABLE ALPHA branch of Remix has been moved to http://ethereum.github.io/remix-live-alpha.')
-  } else if (window.location.hostname === 'remix-alpha.ethereum.org' ||
+  } else if (window.location.hostname === '@dexon-foundation/remix-alpha.ethereum.org' ||
   (window.location.hostname === 'ethereum.github.io' && window.location.pathname.indexOf('/remix-live-alpha') === 0)) {
     modalDialogCustom.alert(`Welcome to the Remix alpha instance. Please use it to try out latest features. But use preferably https://remix.ethereum.org for any production work.`)
   } else if (window.location.protocol.indexOf('http') === 0 &&

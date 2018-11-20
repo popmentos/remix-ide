@@ -59,7 +59,7 @@ module.exports = class CompileTab {
       timeout: 300,
       allversions: null,
       selectedVersion: null,
-      baseurl: 'https://solc-bin.ethereum.org/bin'
+      baseurl: 'https://dexon-foundation.github.io/dsolc-bin/bin/'
     }
     self.data.optimize = self._components.queryParams.get().optimize
     self.data.optimize = self.data.optimize === 'true'

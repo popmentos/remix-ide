@@ -28,14 +28,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereum/remix-ide.git"
+    "url": "git+https://github.com/dexon-foundation/remix-ide.git"
   },
   "author": "cpp-ethereum team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethereum/remix-ide/issues"
+    "url": "https://github.com/dexon-foundation/remix-ide/issues"
   },
-  "homepage": "https://github.com/ethereum/remix-ide#readme",
+  "homepage": "https://github.com/dexon-foundation/remix-ide#readme",
   "browserify": {
     "transform": [
       [

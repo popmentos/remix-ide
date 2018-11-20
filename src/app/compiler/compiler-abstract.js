@@ -1,5 +1,5 @@
 'use strict'
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var txHelper = remixLib.execution.txHelper
 
 module.exports = class CompilerAbstract {

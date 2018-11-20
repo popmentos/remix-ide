@@ -1,6 +1,6 @@
 var yo = require('yo-yo')
 var csjs = require('csjs-inject')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 
 const defaultPlugins = require('../plugin/plugins')
 var globalRegistry = require('../../global/registry')

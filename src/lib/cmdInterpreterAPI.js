@@ -1,14 +1,14 @@
 'use strict'
 var yo = require('yo-yo')
 var async = require('async')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var EventManager = require('../lib/events')
 
 var executionContext = require('../execution-context')
 var toolTip = require('../app/ui/tooltip')
 var globalRegistry = require('../global/registry')
 var SourceHighlighter = require('../app/editor/sourceHighlighter')
-var RemixDebug = require('remix-debug').EthDebugger
+var RemixDebug = require('@dexon-foundation/remix-debug').EthDebugger
 var TreeView = require('../app/ui/TreeView') // TODO setup a direct reference to the UI components
 var solidityTypeFormatter = require('../app/debugger/debuggerUI/vmDebugger/utils/SolidityTypeFormatter')
 

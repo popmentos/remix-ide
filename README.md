@@ -9,7 +9,7 @@ Remix is a browser-based compiler and IDE that enables users to build **Ethereum
 
 To try it out, visit [https://remix.ethereum.org](https://remix.ethereum.org).
 
-https://github.com/ethereum/remix-ide/releases also gives others ways to use Remix locally. Please check it out.
+https://github.com/dexon-foundation/remix-ide/releases also gives others ways to use Remix locally. Please check it out.
 
 Remix consists of many modules and in this repository you will find the Remix IDE (aka. Browser-Solidity).
 
@@ -29,14 +29,14 @@ Install **npm** and **node.js** (see https://docs.npmjs.com/getting-started/inst
 Remix-ide has been published as an npm module:
 
 ```bash
-npm install remix-ide -g
-remix-ide
+npm install @dexon-foundation/remix-ide -g
+dremix-ide
 ```
 Or if you want to clone the github repository (`wget` need to be installed first) :
 
 ```bash
-git clone https://github.com/ethereum/remix-ide.git
-git clone https://github.com/ethereum/remix.git # only if you plan to link remix and remix-ide repositories and develop on it.
+git clone https://github.com/dexon-foundation/remix-ide.git
+git clone https://github.com/dexon-foundation/remix.git # only if you plan to link remix and remix-ide repositories and develop on it.
 cd remix-ide
 npm install
 npm run setupremix  # only if you plan to link remix and remix-ide repositories and develop on it.

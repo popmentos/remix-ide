@@ -1,6 +1,6 @@
 var styleGuideLight = require('./style-guide')
 var styleGuideDark = require('./styleGuideDark')
-var Storage = require('remix-lib').Storage
+var Storage = require('@dexon-foundation/remix-lib').Storage
 module.exports = {
 
   chooser: function () {

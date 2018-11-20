@@ -1,9 +1,9 @@
 'use strict'
 
 var fs = require('fs')
-var compiler = require('solc')
+var compiler = require('@dexon-foundation/dsolc')
 
-var compilerInput = require('remix-solidity').CompilerInput
+var compilerInput = require('@dexon-foundation/remix-solidity').CompilerInput
 var compilationResult = {}
 gatherCompilationResults('./test-browser/tests/', compilationResult)
 gatherCompilationResults('./test-browser/tests/units/', compilationResult)

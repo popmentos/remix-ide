@@ -2,7 +2,7 @@
 # Team best practices
 
 This document aims to address contibutors best practices of the following repositories:
- - remix-ide https://github.com/ethereum/remix-ide
+ - remix-ide https://github.com/dexon-foundation/remix-ide
  - remix https://github.com/ethereum/remix
  - remix-tests https://github.com/ethereum/remix-tests
  - remixd https://github.com/ethereum/remixd
@@ -176,7 +176,7 @@ Before starting coding, we should ensure all devs / contributors are aware of:
 
 # Coding best practices
 
- - https://github.com/ethereum/remix-ide/blob/master/best-practices.md
+ - https://github.com/dexon-foundation/remix-ide/blob/master/best-practices.md
 
 ---
 
