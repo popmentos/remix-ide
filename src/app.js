@@ -361,12 +361,12 @@ function run () {
   (window.location.hostname === 'ethereum.github.io' && window.location.pathname.indexOf('/remix-live-alpha') === 0)) {
     modalDialogCustom.alert(`Welcome to the Remix alpha instance. Please use it to try out latest features. But use preferably https://remix.ethereum.org for any production work.`)
   } else if (window.location.protocol.indexOf('http') === 0 &&
-  window.location.hostname !== 'remix.ethereum.org' &&
+  window.location.hostname !== 'remix.dexon.org' &&
   window.location.hostname !== 'localhost' &&
   window.location.hostname !== '127.0.0.1') {
-    modalDialogCustom.alert(`The Remix IDE has moved to http://remix.ethereum.org.\n
+    modalDialogCustom.alert(`The DEXON Remix IDE has moved to http://remix.dexon.org.\n
 This instance of Remix you are visiting WILL NOT BE UPDATED.\n
-Please make a backup of your contracts and start using http://remix.ethereum.org`)
+Please make a backup of your contracts and start using http://remix.dexon.org`)
   }
 
   if (window.location.protocol.indexOf('https') === 0) {
