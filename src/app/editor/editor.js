@@ -12,7 +12,7 @@ var Range = ace.acequire('ace/range').Range
 require('brace/ext/language_tools')
 require('brace/ext/searchbox')
 var langTools = ace.acequire('ace/ext/language_tools')
-require('ace-mode-solidity/build/remix-ide/mode-solidity')
+require('@dexon-foundation/ace-mode-dsolidity/build/remix-ide/mode-solidity')
 require('brace/mode/javascript')
 require('brace/mode/python')
 require('brace/mode/json')
