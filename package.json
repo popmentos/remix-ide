@@ -3,7 +3,7 @@
   "version": "v0.7.3",
   "description": "Minimalistic browser-based Solidity IDE",
   "devDependencies": {
-    "@dexon-foundation/ace-mode-dsolidity": "^0.1.0",
+    "@dexon-foundation/ace-mode-dsolidity": "^0.1.2",
     "@dexon-foundation/remix-debug": "^0.2.14",
     "@dexon-foundation/remix-analyzer": "^0.2.13",
     "@dexon-foundation/remix-lib": "^0.3.13",
