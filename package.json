@@ -7,7 +7,7 @@
     "@dexon-foundation/remix-analyzer": "^0.2.13",
     "@dexon-foundation/remix-lib": "^0.3.13",
     "@dexon-foundation/remix-solidity": "^0.2.14",
-    "@dexon-foundation/remix-tests": "^0.0.20",
+    "@dexon-foundation/remix-tests": "^0.0.21",
     "ace-mode-solidity": "^0.1.0",
     "async": "^2.1.2",
     "babel-eslint": "^7.1.1",
