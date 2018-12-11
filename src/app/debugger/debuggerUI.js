@@ -2,7 +2,7 @@ var TxBrowser = require('./debuggerUI/TxBrowser')
 var StepManagerUI = require('./debuggerUI/StepManager')
 var VmDebugger = require('./debuggerUI/VmDebugger')
 
-var Debugger = require('remix-debug').TransactionDebugger
+var Debugger = require('@dexon-foundation/remix-debug').TransactionDebugger
 
 var SourceHighlighter = require('../editor/sourceHighlighter')
 
@@ -11,7 +11,7 @@ var EventManager = require('../../lib/events')
 var executionContext = require('../../execution-context')
 var globalRegistry = require('../../global/registry')
 
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var Web3Providers = remixLib.vm.Web3Providers
 var DummyProvider = remixLib.vm.DummyProvider
 
