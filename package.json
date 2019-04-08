@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/remix-ide",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "Minimalistic browser-based Solidity IDE",
   "devDependencies": {
     "@dexon-foundation/ace-mode-dsolidity": "^0.1.2",
