@@ -357,8 +357,8 @@ UniversalDApp.prototype.runTx = function (args, cb) {
       self.txRunner.rawRun(tx,
 
         (network, tx, gasEstimation, continueTxExecution, cancelCb) => {
-          if (network.name !== 'Main') {
-            return continueTxExecution(null)
+          if (network.name !== 'Main' && network.name !== 'DEXON') {
+            return continueTxExecution('24000000000')
           }
           var amount = executionContext.web3().fromWei(typeConversion.toInt(tx.value), 'ether')
           var content = confirmDialog(tx, amount, gasEstimation, self,
